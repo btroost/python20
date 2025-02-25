@@ -1,4 +1,4 @@
-version: 0.4,5
+version: 0.4
 
 backend:
   phases:
@@ -6,7 +6,7 @@ backend:
     runtime-versions:
       python: 3.8
     commands:
-      - echo Installing dependencies...????
+      - echo Installing dependencies...
       - pip install -r requirements.txt
   build:
     commands:
