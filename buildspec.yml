@@ -13,6 +13,6 @@ backend:
       - echo Building Lambda function...
       - zip -r lambda_function.zip lambda_function.py
       - amplifyPush --simple
-artifacts:
-  files:
-    - lambda_function.zip
+  artifacts:
+    files:
+      - lambda_function.zip
